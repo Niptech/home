@@ -367,7 +367,6 @@ a:visited {
 
 /************* NIPTECH *************/
 #niptech {
-    background-image: url('http://static.niptech.com/site/images/cover_niptech.png');
     background-color: #0670ac;
     background-size: 100%;
     color: #ffffff;
@@ -383,7 +382,6 @@ a:visited {
 
 /************* NIPDEV ******************/
 #nipdev {
-    background-image: url('http://static.niptech.com/site/images/cover_nipdev.png');
     background-color: #f6a456;
     background-size: 100%;
     color: #ffffff;
@@ -394,7 +392,6 @@ a:visited {
 
 /************* NIPLIFE ******************/
 #niplife {
-    background-image: url('http://static.niptech.com/site/images/cover_niplife.png');
     background-color: #99c339;
     background-size: 100%;
     color: #ffffff;
@@ -405,7 +402,6 @@ a:visited {
 
 /************* NIPSALES ******************/
 #nipsales {
-    background-image: url('http://static.niptech.com/site/images/cover_nipsales.png');
     background-color: #202020;
     background-size: 100%;
     color: #ffffff;
@@ -416,7 +412,6 @@ a:visited {
 
 /************* SHOP ******************/
 #shop {
-    background-image: url('http://static.niptech.com/site/images/cover_shop.png');
     background-color: #f9f9f9;
     background-size: 100%;
     color: #ffffff;
@@ -668,7 +663,3 @@ a:visited {
     }
 
 }
-
-
-
-
