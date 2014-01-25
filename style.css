@@ -490,6 +490,29 @@ a:visited {
     padding-bottom: 50px;
 }
 
+/******/
+/* Slide 7 - Inspiration*/
+/******/
+#inspire {
+    background-color: #0670ac;
+    background-size: 100%;
+    color: #ffffff;
+    padding: 40px 0 20px 0;
+	background-size: 100% auto;
+    color: #FFFFFF;
+    line-height: 30px;
+    padding: 40px 0 40px;
+    text-align: justify;
+}
+#inspire h2 {
+    font-size: 2em;
+    color: #FFFFFF;
+    line-height: 0px;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+
+
 /******* RECHERCHE CSS *******/
 #search {
     margin-bottom: 10px;

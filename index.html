@@ -14,7 +14,7 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="http://static.niptech.com/site/css/normalize.css" type="text/css" media="screen">
     <link rel="stylesheet" href="http://static.niptech.com/site/css/grid.css" type="text/css" media="screen">
-    <link rel="stylesheet" href="http://static.niptech.com/site/css/style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="./style.css" type="text/css" media="screen">
     <link rel="stylesheet" href="http://static.niptech.com/site/css/index.css" type="text/css" media="screen">
     <!-- <link rel="stylesheet" href="css/style.min.css" type="text/css" media="screen"> -->
     <!--[if IE]>
@@ -33,12 +33,12 @@
 
             <div id="nav" class="grid_9 omega">
                 <ul class="navigation">
-                    <li data-slide="1">Accueil</li>
                     <li data-slide="2">NipTech</li>
                     <li data-slide="3">NipDev</li>
                     <li data-slide="4">NipLife</li>
                     <li data-slide="5">NipSales</li>
-                    <li data-slide="6">Boutiques</li>
+                    <li data-slide="6">Inspiration</li>
+                    <li data-slide="7">Boutiques</li>
                 </ul>
             </div>
 
@@ -420,7 +420,24 @@
     </div>
 </div>
 
-<div class="slide" id="shop" data-slide="6" >
+<!-- -
+-- Inspiration
+-->
+<div class="slide" id="inspire" data-slide="6" >
+    <div class="container clearfix">
+	<h2>Une touche d'inspiration</h2>
+	<div id="content-inspire" class="grid_12" style="width:100%">
+		<iframe width="100%" height="300" src="http://inspire.niptech.com/" frameborder="0" allowfullscreen></iframe>
+	</div>
+    </div>
+    <div id="content-inspire-details" class="grid_12">
+            <a href="http://inspire.niptech.com/archive">
+                <div class="bouton_pod center">Archive</div>
+            </a>
+    </div>
+</div>
+
+<div class="slide" id="shop" data-slide="7" >
     <div class="container clearfix" style="text-align:center">
         <h2 style="color: #545454;font-weight: 100;">Les boutiques NipTech</h2>
         <a href="http://astore.amazon.fr/nip-21" target="_blank"><img
@@ -432,7 +449,7 @@
     </div>
 </div>
 
-<div class="slide" id="slide6" data-slide="7" >
+<div class="slide" id="slide7" data-slide="8" >
     <div class="container clearfix">
         <div id="content-search" class="grid_3">
             <form method="GET" action="http://niptech.com/podcast/" id="search">
